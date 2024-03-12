@@ -6,11 +6,12 @@
 --background: beige;
 --primary-color: #008080;
 --font-size: 14px;
+--header-size: 110%;
 }
 
 /* Universal code */
 *{
-    margin: 0;
+    margin: 0;  
     padding: 0;
     box-sizing: border-box;
 }
@@ -24,17 +25,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
  
-
+/* header section */
 header{
-    background-color: var(--background)
-}
-
-main {
-    background-color: pink;
-}
-
-footer {
-    background-color: aquamarine;
+    background-color: var(--background);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #3a3a3a;
 }
 
 .logo {
@@ -45,12 +43,46 @@ footer {
     position: relative;
 
 }
+.nav-list {
+    font-size: var(--header-size);
+    font-weight: 500;
+    letter-spacing: 3px;
+    list-style-type: none;
+    text-transform:uppercase;
 
-header{
-    background-color: var(--background);
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    box-shadow: 0 3px 3px #3a3a3a;
 }
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list >li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-left: 4px solid #008080;
+    
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background: var(--background);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #3a3a3a;
+    display: none;
+
+}
+
+/* main section */
+main {
+    background-color: var(--primary-color)
+}
+
+footer {
+    background-color: aquamarine;
+}
+
