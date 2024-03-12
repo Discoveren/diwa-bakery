@@ -47,5 +47,10 @@ footer {
 }
 
 header{
-    
+    background-color: var(--background);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 3px 3px #3a3a3a;
 }
