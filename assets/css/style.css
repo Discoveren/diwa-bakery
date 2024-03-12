@@ -1,0 +1,51 @@
+/* Google fonts import  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* root styling */
+:root {
+/* --background: beige;
+--primary-color: #
+--font-size: 14px; */
+}
+
+/* Universal code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project style */
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+
+header{
+    background-color: var(--background)
+}
+
+main {
+    background-color: pink;
+}
+
+footer {
+    background-color: aquamarine;
+}
+
+.logo {
+    width: 100px; /* Set the desired width of the container */
+    height: 100px; /* Set the desired height of the container */
+    object-fit:contain;
+    border: 1px solid red;
+    position: relative;
+
+}
+
+header{
+    
+}
