@@ -70,9 +70,31 @@ header{
 }
 
 .active {
-    border-left: 4px solid #008080;
-    
+    border-right: 18px dotted #008080; /* Set a solid border to create space for the dots */
+    /* border-radius: 20px; */
+
 }
+
+/* Slider section  */
+.container {
+    padding: 2rem;
+    margin-top: 1rem;
+
+}
+
+.slider-wrapper {
+    position:relative;
+    max-width: 80rem;
+    margin: 0 auto;
+
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+}
+
 
 .footer-nav {
     display: flex;
@@ -164,12 +186,12 @@ footer {
         font-weight: 600;
         text-transform: uppercase;
         margin: 0 10px;
-      }
-      nav ul li a,
-      nav ul li a:after,
+    }
+    nav ul li a,
+    nav ul li a:after,
       nav ul li a:before {
         transition: all .5s;
-      }
+    }
       nav ul li a:hover {
         color: var(--secondary-color);
       }
@@ -177,7 +199,7 @@ footer {
       
       /* stroke */
       nav.nav-animation ul li a {
-        position: relative;
+          position: relative;
       }
       nav.nav-animation ul li a:after {
         position: absolute;
@@ -189,9 +211,9 @@ footer {
            background: var(--primary-color);
            height: 4px; /* Adjust to make the underline slightly thicker */
            transition: width 0.4s; /* Add transition effect for smoother animation */
-       }
-       nav.nav-animation ul li a:hover:after {
-         width: 80%;
+        }
+        nav.nav-animation ul li a:hover:after {
+            width: 80%;
        }
       
 }
