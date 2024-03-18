@@ -40,7 +40,6 @@ header{
 
 .fa-solid {
     font-size: 2rem;
-    color: #008080;
 }
 
 .logo {
@@ -94,6 +93,7 @@ nav {
     display: none;
 }
 
+
 /* main section */
 main {
     background-color: var(--primary-color);
@@ -105,3 +105,37 @@ footer {
     background-color: aquamarine;
 }
 
+/* Media query: tablets and larger (768 and up) */
+@media screen and (min-width: 768px) {
+    /* Header section*/
+    
+    Header {
+        justify-content:space-around;
+
+    }
+    
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        /* padding-right: 1rem; */
+    }
+    
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .logo {
+        font-size: 5rem;
+        line-height: 75px;
+    }
+}
