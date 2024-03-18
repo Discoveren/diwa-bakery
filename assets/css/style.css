@@ -5,6 +5,7 @@
 :root {
 --background: beige;
 --primary-color: #008080;
+--secondary-color: #483D8B;
 --font-size: 14px;
 --header-size: 110%;
 }
@@ -40,6 +41,7 @@ header{
 
 .fa-solid {
     font-size: 2rem;
+    color: #008080;
 }
 
 .logo {
@@ -70,6 +72,17 @@ header{
 .active {
     border-left: 4px solid #008080;
     
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    padding: 5px 2px;
+    background-color: var(--background);
+    letter-spacing: .2em;
+}
+footer i {
+    padding-left: 1rem;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -138,4 +151,47 @@ footer {
         font-size: 5rem;
         line-height: 75px;
     }
+}
+
+/* Media query: tablets and larger (992px and up) */
+@media screen and (min-width: 992px) {
+ 
+      nav ul li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: #aaa;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 10px;
+      }
+      nav ul li a,
+      nav ul li a:after,
+      nav ul li a:before {
+        transition: all .5s;
+      }
+      nav ul li a:hover {
+        color: var(--secondary-color);
+      }
+      
+      
+      /* stroke */
+      nav.nav-animation ul li a {
+        position: relative;
+      }
+      nav.nav-animation ul li a:after {
+        position: absolute;
+           bottom: 0;
+           left: 0; /* Adjust as needed to position the underline */
+           width: 0; /* Adjust to underline only a small portion of the anchor link */
+           content: '';
+           color: transparent;
+           background: var(--primary-color);
+           height: 4px; /* Adjust to make the underline slightly thicker */
+           transition: width 0.4s; /* Add transition effect for smoother animation */
+       }
+       nav.nav-animation ul li a:hover:after {
+         width: 80%;
+       }
+      
 }
