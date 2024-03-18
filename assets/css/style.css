@@ -33,6 +33,14 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    color: #008080;
 }
 
 .logo {
@@ -74,7 +82,16 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 3px 3px #3a3a3a;
     display: none;
+    top: 100%;
 
+}
+
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 /* main section */
