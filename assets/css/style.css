@@ -175,19 +175,22 @@ h3 span {
 
 .button-section {
     display: flex;
+    flex-wrap: wrap; /* Allows buttons to wrap to next line */
     justify-content: center;
-    margin: 2rem 2rem;
+    margin: 2rem 0; /* Adjust margin for smaller screens */
 }
 
 .button {
-    margin: auto 20px;
+    margin: 0 2rem;
     /* margin-right: 5rem; */
     padding: 1.5rem;
     background: transparent;
     border: 2px solid var(--background);
     color: var(--background);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     text-transform: uppercase;
+    cursor:pointer;
+    margin: 1rem 1rem; /* Adjust margin for smaller screens */
 }
 
 .button:hover {
@@ -197,11 +200,11 @@ h3 span {
 
 /* Footer section */
 .footer-nav {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 5px 2px;
     background-color: var(--background);
     letter-spacing: .2em;
+
 }
 
 
