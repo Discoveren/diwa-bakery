@@ -173,6 +173,14 @@ h3 span {
     background-color: var(--background);
 }
 
+/* divider section */
+.divider {
+    border: 0.2px solid rgba(33, 33, 33, .1);
+    background-color: rgba(33, 33, 33, .1);
+    width: 80%;
+    margin: 17px auto;
+}
+
 .button-section {
     display: flex;
     flex-wrap: wrap; /* Allows buttons to wrap to next line */
