@@ -1,73 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diwa Bakery</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQ_h8rTVoP__Kl-ujN0i3c11EYF4ewr4k"></script>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <a href="#"><img class="logo" src="./assets/images/diwa-cropped.png" alt="logo with diwa letters"></a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav class="nav-animation">
-            <ul class="nav-list">
-                <li><a href="./index.html" class="active">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <!-- <li><a href="#">Reservation</a></li>          -->
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="getintouch.html">Get in touch</a></li>            
-            </ul>
-        </nav>
-    </header> 
- 
+      <a href="#"
+        ><img
+          class="logo"
+          src="./assets/images/diwa-cropped.png"
+          alt="logo with diwa letters"
+      /></a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav class="nav-animation">
+        <ul class="nav-list">
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <!-- <li><a href="#">Reservation</a></li>          -->
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="getintouch.html">Get in touch</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-        <section class="container">
-            <div class="slider-wrapper">
-                <div class="slider">
-                    <img src="./assets/images/Silog-banner.jpg" alt="" id="slider-1">
-                    <img src="./assets/images/chicken-inasal.jpeg" alt="" id="slider-2">
-                    <img src="./assets/images/bibingka.jpg" alt="" id="slider-3">
-                    <img src="./assets/images/panadera-dessert.jpg" alt="" id="slider-4">
-                </div>
-                <div class="slider-nav">
-                    <a href="#slider-1"></a>
-                    <a href="#slider-2"></a>
-                    <a href="#slider-3"></a>
-                    <a href="#slider-4"></a>
-                </div>
-            </div>
+      <section class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img src="./assets/images/Silog-banner.jpg" alt="" id="slider-1" />
+            <img
+              src="./assets/images/chicken-inasal.jpeg"
+              alt=""
+              id="slider-2"
+            />
+            <img src="./assets/images/bibingka.jpg" alt="" id="slider-3" />
+            <img
+              src="./assets/images/panadera-dessert.jpg"
+              alt=""
+              id="slider-4"
+            />
+          </div>
+          <div class="slider-nav">
+            <a href="#slider-1"></a>
+            <a href="#slider-2"></a>
+            <a href="#slider-3"></a>
+            <a href="#slider-4"></a>
+          </div>
+        </div>
+      </section>
+      <h3 class="sub-heading">
+        The Filipino Pan-asian fusion. You don't have to look else<span
+          >ware!</span
+        >
+      </h3>
+      <section class="button-section">
+        <a href="./menu.html"
+          ><button class="button button-1">Reservation</button></a
+        >
+        <button class="button button-2">Private Dining</button>
+      </section>
+      <!-- <hr> -->
+      <div class="divider"></div>
+      <article class="menu-head">
+        <div class="menu-head-title">
+          <h3 class="new-menu-subheading">What's new</h3>
+        </div>
+        <section class="new-menu-container">
+          <img
+            class="chicken-inasal"
+            src="./assets/images/chicken-inasal.jpeg"
+            alt=""
+          />
+          <section class="title-description">
+            <h4 class="text-content">Chicken Inasal</h4>
+            <p class="text-content">
+              As Ramadan approaches, our hearts and kitchens at Diwa are
+              brimming with excitement and the aromatic spices of our special
+              Chicken Inasal. At the heart of our menu this holy month are
+              dishes deeply rooted in tradition and love, passed down through
+              the generations of the family.
+            </p>
+          </section>
         </section>
-        <h3 class="sub-heading">The Filipino Pan-asian fusion. You don't have to look else<span>ware!</span></h3>
-        <section class="button-section">  
-            <a href="./menu.html"><button class="button button-1">Reservation</button></a>
-            <button class=" button button-2">Private Dining</button>
-        </section>
-        <!-- <hr> -->
-        <div class="divider"></div>
-        <article class="menu-head">
-            <div class="menu-head-title">
-                <h3 class="new-menu-subheading">What's new</h3>
-            </div>
-            <section class="new-menu-container">
-                <img class="chicken-inasal"src="./assets/images/chicken-inasal.jpeg" alt="">
-                <section class="title-description">
-                    <h4 class="text-content">Chicken Inasal</h4>
-                    <p class="text-content">As Ramadan approaches, our hearts and kitchens at Diwa are brimming with excitement and the aromatic spices of our special Chicken Inasal. At the heart of our menu this holy month are dishes deeply rooted in tradition and love, passed down through the generations of the family. </p>
-                </section>
-            </section>
-        </article>
-        <div class="divider"></div>
-        
+      </article>
+      <div class="divider"></div>
+      <section class="location-section">
+        <h4>Central London Restaurant</h4>
+        <p>
+          Bintang restaurant is in a perfect location with excellent transport
+          links.
+        </p>
+        <p>
+          We are located near Camden Town and Kentish Town on the underground
+          and Camden Road and Kentish Town West on the overground.
+        </p>
+        <p>The closest bus routes to the restaurant are the 88, 134, and 214</p>
+        <a href="">Get Directions</a>
+        <h3>Location</h3>
+        <p>93 Kentish Town Road, NW1 8NY</p>
+        <h3>opening times</h3>
+        <ul class="opening-times">
+          <li><span>Monday-Thursday:</span>5:00 - 9:30PM</li>
+          <li><span>Friday:</span>5:00 - 10:00PM</li>
+          <li><span>Saturday:</span>12:00 - 10:00PM</li>
+          <li><span>Sunday:</span>12:00 - 09:30PM</li>
+        </ul>
+        <ul>
+          <p>CONTACT US</p>
+          <li>020 5232 2324</li>
+          <li>DIWA@GMAIL.COM</li>
+        </ul>
+      </section>
+     
+      </section>
     </main>
     <footer>
-        <section class="footer-nav">
-            <h4>- EST. 2024 - DISCOVEREN LTD </h4>
-        </section>
+      <section class="footer-nav">
+        <h4>- EST. 2024 - DISCOVEREN LTD</h4>
+      </section>
     </footer>
-    <script src="https://kit.fontawesome.com/cb56c22edc.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/cb56c22edc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
