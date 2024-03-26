@@ -1,42 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diwa Bakery</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <a href="#"><img class="logo" src="./assets/images/diwa-cropped.png" alt="logo with diwa letters"></a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav class="nav-animation">
-            <ul class="nav-list">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <!-- <li><a href="#">Reservation</a></li>          -->
-                <li><a href="gallery.html" >Gallery</a></li>
-                <li><a href="getintouch.html" class="active">Get in touch</a></li>            
-            </ul>
-        </nav>
-    </header> 
- 
+      <a href="#"
+        ><img
+          class="logo"
+          src="./assets/images/diwa-cropped.png"
+          alt="logo with diwa letters"
+      /></a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav class="nav-animation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <!-- <li><a href="#">Reservation</a></li>          -->
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="getintouch.html" class="active">Get in touch</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id soluta rem ad sint iure expedita ab voluptate libero, provident ducimus porro nihil cupiditate ipsam! Modi ex neque quam! Iure, aut?
-        Laboriosam minus aut cupiditate totam et quisquam, mollitia non natus, ipsa quibusdam qui! Delectus corrupti laudantium inventore quia, sequi, accusamus quaerat provident reprehenderit similique harum libero quis, sapiente dolore doloremque.
-        Reiciendis iste, harum aspernatur quasi dolore doloremque veritatis! Molestias pariatur eligendi quis dicta sed dolore, dolor sit alias illum ratione aliquam. Nisi distinctio illum deserunt pariatur inventore eveniet vero rem?
-        Quis temporibus et impedit, consequatur explicabo dicta cum numquam sit eius voluptatibus nisi? Error culpa qui cum quos. Nulla iure suscipit praesentium, numquam alias veniam libero quibusdam nemo aliquam. Minus?
-        Blanditiis, minus placeat sunt sed expedita enim rerum, explicabo totam quidem atque numquam ullam inventore a tenetur debitis molestiae maiores vero cum, ab modi laborum repudiandae ex quod. Doloribus, quaerat!</h2>
-        
+      <section id="signup">
+        <form
+          id="signup-form"
+          action="https://formdump.codeinstitute.net"
+          method="POST"
+        >
+          <h2>Let's get you signed up!</h2>
+          <label for="first_name">First Name:</label>
+          <input
+            class="text-input"
+            type="text"
+            name="first_name"
+            id="first_name"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name:</label>
+          <input
+            class="text-input"
+            type="text"
+            name="last_name"
+            id="last_name"
+            required
+          />
+          <br />
+          <label for="email_address">Email:</label>
+          <input
+            class="text-input"
+            type="email"
+            name="email_address"
+            id="email_address"
+            required
+          />
+          <br />
+          <button type="submit" class="join-button">Let's chat!</button>
+        </form>
+      </section>
     </main>
     <footer>
-        <section class="footer-nav"> - EST. 2024 - 
-            <i class="fa-regular fa-copyright">Discoveren LTD</i>
-        </section>
+      <section class="footer-nav">
+        - EST. 2024 -
+        <i class="fa-regular fa-copyright">Discoveren LTD</i>
+      </section>
     </footer>
-    <script src="https://kit.fontawesome.com/cb56c22edc.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/cb56c22edc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
