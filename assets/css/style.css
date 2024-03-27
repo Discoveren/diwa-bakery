@@ -336,7 +336,6 @@ form {
   flex-wrap: wrap;
   /* flex: 1; */
   /* margin-left: 50%; */
-  margin: 0 30%;
   /* padding-right: 60px; */
 }
 
@@ -351,6 +350,10 @@ form {
 
 .price-list {
   font-weight: 500;
+}
+
+.dish-description {
+  font-style: italic;
 }
 
 /* Footer section */
@@ -502,5 +505,11 @@ form {
     margin: 0 auto;
     max-width: 700px;
     max-height: 550px;
+  }
+  .nibble-section,
+  .starter-section {
+    /* menu section  */
+
+    margin: 0 30%;
   }
 }
