@@ -328,8 +328,7 @@ form {
   border: 1px solid red;
 }
 
-.nibble-section,
-.starter-section {
+.menu-list {
   border: 1px solid red;
   display: flex;
   justify-content: center;
@@ -337,6 +336,10 @@ form {
   /* flex: 1; */
   /* margin-left: 50%; */
   /* padding-right: 60px; */
+}
+
+.main-title {
+  padding-bottom: 20px;
 }
 
 .price-list,
@@ -505,10 +508,8 @@ form {
     max-width: 700px;
     max-height: 550px;
   }
-  .nibble-section,
-  .starter-section {
-    /* menu section  */
-
+  /* menu section  */
+  .menu-list {
     margin: 0 30%;
   }
 }
