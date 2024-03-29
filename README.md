@@ -17,6 +17,7 @@ This project was created using HTML, CSS and JavaScript.
 <ul>
 <li><a href="#colours">Colours</a></li>
 <li><a href="#wireframes">Wireframes</a></li>
+<li><a href="#Initial Idea">Initial Idea</a></li>
 </ul>
 
 ## User Experience
@@ -56,6 +57,12 @@ This project was created using HTML, CSS and JavaScript.
 ### Colours
 
 <img src="" style="width:798px;"/>
+
+### Initial Idea
+
+<p>Initially, it was meant to be a filino bakery/cafe. However, while doing the website it evolved into a restaurant instead and seems to be fitting with the branding.</p>
+
+
 
 
 
