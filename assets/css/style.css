@@ -48,7 +48,6 @@ header {
   width: 100px; /* Set the desired width of the container */
   height: 100px; /* Set the desired height of the container */
   object-fit: contain;
-  border: 1px solid red;
   position: relative;
 }
 .nav-list {
@@ -69,7 +68,6 @@ header {
 
 .active {
   border-right: 18px dotted #008080; /* Set a solid border to create space for the dots */
-  /* border-radius: 20px; */
 }
 
 /* Slider section  */
@@ -158,10 +156,6 @@ main {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-h3 span {
-  background-color: var(--background);
 }
 
 /* divider section */
