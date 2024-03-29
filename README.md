@@ -49,11 +49,9 @@ This project was created using HTML, CSS and JavaScript.
 ### Wireframes
 
 
-### Home Page section mockup
-<img src="" style="width:798px;"/>
+### Home Page and main section mockup
+<img src="./doc/diwa-wireframe.png" style="width:798px;"/>
 
-### Content section mockup
-<img src="" style="width:798px;"/>
 
 ### Colours
 
