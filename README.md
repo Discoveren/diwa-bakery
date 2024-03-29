@@ -1,6 +1,6 @@
 # [Diwa](https://discoveren.github.io/diwa-bakery/)
 
-"Welcome to Diwa, a culinary haven in London where we invite you to embark on a flavorful journey through the Philippines, showcasing traditional dishes crafted with passion and authenticity."
+"Welcome to Diwa, a culinary haven in London where we invite you to embark on a flavourful journey through the Philippines, showcasing traditional dishes crafted with passion and authenticity."
 
 This project was created using HTML, CSS and JavaScript.
 
