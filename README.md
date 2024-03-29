@@ -58,7 +58,7 @@ This project was created using HTML, CSS and JavaScript.
 
 <img src="" style="width:798px;"/>
 
-### Initial Idea
+### Website Idea
 
 <p>Initially, it was meant to be a filino bakery/cafe. However, while doing the website it evolved into a restaurant instead and seems to be fitting with the branding.</p>
 
