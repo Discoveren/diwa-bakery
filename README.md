@@ -60,7 +60,7 @@ This project was created using HTML, CSS and JavaScript.
 
 ### Website Idea
 
-<p>Initially, it was meant to be a filino bakery/cafe. However, while doing the website it evolved into a restaurant instead and seems to be fitting with the branding.</p>
+<p>Initially, it was meant to be a filipino bakery/cafe because I was inspired by bakeries' back home in the Philippines. However, while making the website it evolved into a restaurant because I think elevating it into a restaurant it could help push filipino cuisine into a wider audience.</p>
 
 
 
