@@ -27,7 +27,7 @@ This project was created using HTML, CSS and JavaScript.
 #### I. User interested in exploring Filipino cuisine in London:
 
 <ul>
-<li>As a food enthusiast, I want to discover the menu options available at the Filipino restaurant, so I can plan my dining experience accordingly.</li>
+<li>As a food enthusiast, I want to discover the menu options available at the Filipino restaurant, so I can experience the culture through food.</li>
 <li>As a diner curious about Filipino cuisine, I want to learn about the traditional dishes served at the restaurant and their cultural significance.</li>
 </ul>
 
