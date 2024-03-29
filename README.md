@@ -60,7 +60,7 @@ This project was created using HTML, CSS and JavaScript.
 
 ### Website Idea
 
-<p>Initially, it was meant to be a filipino bakery/cafe because I was inspired by bakeries' back home in the Philippines. However, while making the website it evolved into a restaurant because I think elevating it into a restaurant could help push filipino cuisine into a wider audience. Which then leads back to the name of the restaurant which is 'Diwa' which stands for soul. I want to spread filipino food to touch people's soul and heart</p>
+<p>Initially, it was meant to be a filipino bakery/cafe because I was inspired by the bakeries' back home in the Philippines. However, while making the website it evolved into a restaurant because I think elevating it into a restaurant could help push filipino cuisine into a wider audience. Which then leads back to the name of the restaurant which is 'Diwa' which stands for soul. I want to spread filipino food to touch people's soul and heart</p>
 
 
 
