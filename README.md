@@ -4,7 +4,7 @@
 
 This project was created using HTML, CSS and JavaScript.
 
-![Diwa - different devices view](./doc/responsiveness)
+![Diwa - different devices view](./doc/responsiveness.PNG)
 
 
 ## Table of Contents
