@@ -15,8 +15,8 @@ This project was created using HTML, CSS and JavaScript.
     </ul>
 <li><a href="#design">Design</a></li>
 <ul>
-<li><a href="#colours">Colours</a></li>
 <li><a href="#wireframes">Wireframes</a></li>
+<li><a href="#colours">Colours</a></li>
 <li><a href="#Website Idea">Initial Idea</a></li>
 </ul>
 
