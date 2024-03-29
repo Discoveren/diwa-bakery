@@ -17,7 +17,7 @@ This project was created using HTML, CSS and JavaScript.
 <ul>
 <li><a href="#colours">Colours</a></li>
 <li><a href="#wireframes">Wireframes</a></li>
-<li><a href="#Initial Idea">Initial Idea</a></li>
+<li><a href="#Website Idea">Initial Idea</a></li>
 </ul>
 
 ## User Experience
