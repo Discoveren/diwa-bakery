@@ -357,12 +357,31 @@ form {
   font-style: italic;
 }
 
+/* Gallery page */
+.photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+.photos {
+  line-height: 0;
+}
+
 /* Footer section */
 .footer-nav {
   text-align: center;
   padding: 5px 2px;
   background-color: var(--background);
   letter-spacing: 0.2em;
+}
+
+/* Media query: large or landscape phones(576 and up) */
+@media screen and (min-width: 576px) {
+  /* gallery section */
+  .photos {
+    column-count: 2;
+    column-gap: 0;
+  }
 }
 
 /* Media query: tablets and larger (768 and up) */
@@ -423,6 +442,11 @@ form {
     width: 500px;
     height: 500px;
     /* position: absolute; */
+  }
+
+  /* gallery section  */
+  .photos {
+    column-count: 3;
   }
 }
 
@@ -510,5 +534,10 @@ form {
   /* menu section  */
   .menu-list {
     margin: 0 30%;
+  }
+
+  /* gallery section  */
+  .photos {
+    column-count: 4;
   }
 }
