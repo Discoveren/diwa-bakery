@@ -17,7 +17,7 @@ This project was created using HTML, CSS and JavaScript.
 <ul>
 <li><a href="#wireframes">Wireframes</a></li>
 <li><a href="#colours">Colours</a></li>
-<li><a href="#Website Idea">Website Idea</a></li>
+<li><a href="#website-idea">Website Idea</a></li>
 </ul>
 tially, it was meant to be a filipino bakery/cafe because I was inspired by the bakeries' back home in the Philippines. However, while making the website it evolved into a restaurant because I think elevating it into a restaurant could help push filipino cuisine into a wider audience. Which then leads back to the name of the restaurant which is 'Diwa' which translate for 'Soul'.</p>
     
