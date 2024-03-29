@@ -34,14 +34,14 @@ This project was created using HTML, CSS and JavaScript.
 #### II. Filipino expatriate seeking a taste of home:
 
 <ul>
-<li>As a Filipino living abroad, I want to find a restaurant in London that offers authentic Filipino dishes, reminiscent of the flavors from back home.</li>
-<li>As someone longing for the comfort of Filipino food, I want to know if the restaurant offers specific regional specialties or familiar favorites.</li>
+<li>As a Filipino living abroad, I want to find a restaurant in London that offers authentic Filipino dishes, reminiscing of the flavours from back home.</li>
+<li>As someone longing for the comfort of Filipino food, I want to know if the restaurant offers specific regional specialties or familiar favourites.</li>
 </ul>
 
 #### III. Local resident interested in trying something new:
 
 <ul>
-<li>As a London resident, I'm intrigued by the idea of trying Filipino cuisine for the first time and want to know if the restaurant caters to beginners or offers any introductory options.</li>
+<li>As a London resident, I'm intrigued by the idea of trying Filipino cuisine for the first time with family and friends.</li>
 <li>As someone looking for a unique dining experience in London, I want to know if the restaurant incorporates any modern twists or innovative dishes alongside traditional Filipino fare.</li>
 </ul>
 
