@@ -57,7 +57,7 @@ tially, it was meant to be a filipino bakery/cafe because I was inspired by the 
 
 ### Colours
 
-<img src="" style="width:798px;"/>
+<img src="./doc/diwa-colours.png" style="width:798px;"/>
 
 ### Website Idea
 
