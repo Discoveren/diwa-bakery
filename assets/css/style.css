@@ -275,7 +275,7 @@ iframe {
   color: var(--background);
   background-color: var(--secondary-color);
   padding: 40px;
-  margin: 4rem 4rem;
+  margin: 2rem 2rem;
 }
 
 #signup-form > h2 {
