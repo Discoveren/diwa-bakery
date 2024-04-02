@@ -170,7 +170,7 @@ main {
 .new-menu-subheading {
   text-align: center;
   margin: 30px auto;
-  font-size: 12spx;
+  font-size: 12px;
   letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
@@ -302,7 +302,7 @@ form {
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #008080;
-  font-size: var(--font-size) 2;
+  font-size: 24px;
   border-radius: 5px;
   color: #fafafa;
 }
