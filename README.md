@@ -21,6 +21,7 @@ This project was created using HTML, CSS and JavaScript.
 </ul>
 <li><a href="#features">Features</a></li>
 <li><a href="#technologies">Technologies</a></li>
+<li><a href="#testing">Testing</a></li>
 
 ## User Experience
 
@@ -96,6 +97,32 @@ This project was created using HTML, CSS and JavaScript.
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/): Used for testing, debugging, and ensuring responsiveness.
 - [W3C HTML Validator](https://validator.w3.org/nu/): Validated HTML code for errors and compliance with standards.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Validated CSS code for errors and compliance with standards.
+
+## Testing
+
+### HTML Validation
+
+<p>Home Page</p>
+<img src="./doc/test/homepage-html.png" style="width:798px;"/>
+<p>Menu Page</p>
+<img src="./doc/test/menupage-html.png" style="width:798px;"/>
+<p>Gallery Page</p>
+<img src="./doc/test/gallerypage-html.png" style="width:798px;"/>
+<p>Contact Page</p>
+<img src="./doc/test/contactpage-html.png" style="width:798px;"/>
+### CSS Validation
+<img src="./doc/test/cssvalidator.png" style="width:798px;"/>
+
+### Lighthouse Reports
+
+<p>Home Page</p>
+<img src="./doc/test/homelighthouse.png" style="width:798px;"/>
+<p>Menu Page</p>
+<img src="./doc/test/menulighthouse.png" style="width:798px;"/>
+<p>Gallery Page</p>
+<img src="./doc/test/gallerylighthouse.png" style="width:798px;"/>
+<p>Contact Page</p>
+<img src="./doc/test/contactlighthouse.png" style="width:798px;"/>
 
 
 
