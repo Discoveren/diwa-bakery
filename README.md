@@ -128,9 +128,9 @@ This project was created using HTML, CSS and JavaScript.
 ## Future Features
 
 <ul>
-    <li>Store page where a user can order for collection or delivery</li>
-    <li>Working Carousel with JavaScript implementation.</li>
-    <li>Loyalty scheme so everytime a user order it adds a tally and provide bonuses depending on the amount of orders</li>
+    <li>Store page where a user can order for collection or delivery.</li>
+    <li>Working carousel with JavaScript implementation.</li>
+    <li>Loyalty scheme so everytime a user order it adds a tally and provide bonuses depending on the amount of orders.</li>
 </ul>
 
 
