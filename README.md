@@ -67,11 +67,16 @@ This project was created using HTML, CSS and JavaScript.
 ## Features
 
 ### Home Page
+
 <p>The purpose of the home page is to provide the user with the overview content of the website's content.</p>
+
 ### Menu
+
 <p>The purpose of the menu page is to provide the user with the food selection of the restaurant.</p>
+
 ### Gallery
 <p>The purpose of the gallery page is to provide the user with the food images of the restaurant.</p>
+
 ### Contact
 <p>The purpose of the contact page is for the user to get in touch with restaurant regarding any query or suggestions.</p>
 
