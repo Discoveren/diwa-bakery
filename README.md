@@ -22,6 +22,7 @@ This project was created using HTML, CSS and JavaScript.
 <li><a href="#features">Features</a></li>
 <li><a href="#technologies">Technologies</a></li>
 <li><a href="#testing">Testing</a></li>
+<li><a href="#future-features">Future Features</a></li>
 
 ## User Experience
 
@@ -123,6 +124,12 @@ This project was created using HTML, CSS and JavaScript.
 <img src="./doc/test/gallerylighthouse.png" style="width:798px;"/>
 <p>Contact Page</p>
 <img src="./doc/test/contactlighthouse.png" style="width:798px;"/>
+
+## Future Features
+
+<li>Store page where a user can order for collection or delivery</li>
+<li>Working Carousel with JavaScript implementation.</li>
+<li>Loyalty scheme so everytime a user order it adds a tally and provide bonuses depending on the amount of orders</li>
 
 
 
