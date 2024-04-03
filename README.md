@@ -19,6 +19,7 @@ This project was created using HTML, CSS and JavaScript.
 <li><a href="#colours">Colours</a></li>
 <li><a href="#website-idea">Website Idea</a></li>
 </ul>
+<li><a href="#features">Features</a></li>
 <li><a href="#technologies">Technologies</a></li>
 
 ## User Experience
@@ -62,6 +63,17 @@ This project was created using HTML, CSS and JavaScript.
 ### Website Idea
 
 <p>Initially, it was meant to be a filipino bakery/cafe because I was inspired by the bakeries' back home in the Philippines. However, while making the website it evolved into a restaurant because I think elevating it into a restaurant could help push filipino cuisine into a wider audience. Which then leads back to the name of the restaurant which is 'Diwa' which translate for 'Soul'.</p>
+
+## Features
+
+### Home Page
+<p>The purpose of the home page is to provide the user with the overview content of the website's content.</p>
+### Menu
+<p>The purpose of the menu page is to provide the user with the food selection of the restaurant.</p>
+### Gallery
+<p>The purpose of the gallery page is to provide the user with the food images of the restaurant.</p>
+### Contact
+<p>The purpose of the contact page is for the user to get in touch with restaurant regarding any query or suggestions.</p>
 
 ## Technologies
 
