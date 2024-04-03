@@ -111,6 +111,7 @@ This project was created using HTML, CSS and JavaScript.
 <img src="./doc/test/gallerypage-html.png" style="width:798px;"/>
 <p>Contact Page</p>
 <img src="./doc/test/contactpage-html.png" style="width:798px;"/>
+
 ### CSS Validation
 <img src="./doc/test/cssvalidator.png" style="width:798px;"/>
 
