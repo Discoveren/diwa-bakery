@@ -23,7 +23,7 @@ This project was created using HTML, CSS and JavaScript.
 <li><a href="#technologies">Technologies</a></li>
 <li><a href="#testing">Testing</a></li>
 <li><a href="#future-features">Future Features</a></li>
-
+</ol>
 ## User Experience
 
 ### User Stories
